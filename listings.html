@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="Kijiji-clone">
+    <meta name="author" content="Sukhjeet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/listings.css">
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar is-fixed-top is-transparent" id="navbar-color"  role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="img/white-logo.png">
+              </a>
+            </div>
+
+          
+               <div class="navbar-end">                   
+                <div class="navbar-item">
+                    <p class="control has-icons-left search-bar">
+                        <input class="input is-small" type="text" placeholder="search" id="search-item">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-search" aria-hidden="true"></i>
+                        </span>
+                      </p>
+                  </div>
+
+                  
+                    <div class="navbar-item">
+                        <a href="index.html" class="button is-info">
+                          <strong>Log out</strong>
+                        </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+      <div class="column container buttons">
+        <a class="button is-black is-outlined filter-btn" data-filter="all">All</a>
+        <a class="button is-black is-outlined filter-btn" data-filter="ford">Ford</a>
+        <a class="button is-black is-outlined filter-btn" data-filter="toyota">Toyota</a>
+        <a class="button is-black is-outlined filter-btn" data-filter="volkswagen">Volkswagen</a>
+        <a class="button is-black is-outlined filter-btn" data-filter="bmw">BMW</a>
+      </div>
+
+<article class="container columns">
+  <div class="column is-3 post item ford" data-item="ford">        
+ <div class="card">
+  <div class="card-image ">
+    <figure class="image is-1by1">
+      <img src="img/ford-mustang.jpg" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="content">
+      <p>Ford Mustang    <span class="price">$13,000</span></p>
+       <a >
+        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+       </a>
+      
+      <br>
+      
+    </div>
+  </div>
+</div>
+</div>    
+<div class="column is-3 post item ford"  data-item="ford">
+    <div class="card">
+        <div class="card-image">
+          <figure class="image is-1by1">
+            <img src="img/ford-fiesta.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p>Ford Fiesta <span class="price">$10,000</span></p>
+            <a >
+              <span class="icon is-small"><i class="fas fa-heart"></i></span>
+             </a>
+
+            <br>
+          </div>
+        </div>
+      </div>
+
+</div>
+<div class="column is-3 post item ford" data-item="ford">
+    <div class="card">
+        <div class="card-image">
+          <figure class="image is-1by1">
+            <img src="img/ford-explorer-suv.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p>Ford Explorer <span class="price">$9,000</span></p>
+            <a >
+              <span class="icon is-small"><i class="fas fa-heart"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+<div class="column is-3 post item ford" data-item="ford">
+    <div class="card">
+        <div class="card-image">
+          <figure class="image is-1by1">
+            <img src="img/Ford_Rangerl_2012.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p>Ford Ranger <span class="price">$12,000</span></p>
+            <a >
+              <span class="icon is-small"><i class="fas fa-heart"></i></span>
+             </a> 
+          </div>
+        </div>
+      </div>
+
+</div>
+</article>
+
+<article class="container columns">
+    <div class="column is-3 post item toyota" data-item="toyota">        
+   <div class="card">
+    <div class="card-image ">
+      <figure class="image is-1by1">
+        <img src="img/toyota-camry.jpg" alt="Placeholder image">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="content">
+        <p>Toyota Camry <span class="price">$10,000</span></p>
+         <a >
+          <span class="icon is-small"><i class="fas fa-heart"></i></span>
+         </a>
+        <br>  
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="column is-3 post item toyota" data-item="toyota">
+      <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/toyota-rav4.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p>Toyota rav4 <span class="price">$9,000</span></p>
+              <a >
+                <span class="icon is-small"><i class="fas fa-heart"></i></span>
+               </a>              
+            </div>
+          </div>
+        </div>
+  
+  </div>
+  <div class="column is-3 post item toyota " data-item="toyota">
+      <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/2011_Toyota_Corolla.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p>Toyota Corolla <span class="price">$13,000</span></p>
+              <a >
+                <span class="icon is-small"><i class="fas fa-heart"></i></span>
+               </a> 
+            </div>
+          </div>
+        </div>
+  
+  </div>
+  
+  <div class="column is-3 post item toyota" data-item="toyota">
+      <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/2018_Toyota_Yaris.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p>Toyota Yaris <span class="price">$12,000</span></p>
+              <a >
+                <span class="icon is-small"><i class="fas fa-heart"></i></span>
+               </a> 
+            </div>
+          </div>
+        </div>
+  
+  </div>
+  </article>
+
+  <article class="container columns" >
+      <div class="column is-3 post item volkswagen" data-item="volkswagen">        
+     <div class="card">
+      <div class="card-image ">
+        <figure class="image is-1by1">
+          <img src="img/volkswagen-jetta.jpg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <p>Volkswagen jetta <span class="price">$13,000</span></p>
+           <a >
+            <span class="icon is-small"><i class="fas fa-heart"></i></span>
+           </a>
+          <br>
+          
+        </div>
+      </div>
+    </div>
+    </div>    
+    <div class="column is-3 post item volkswagen" data-item="volkswagen"> 
+        <div class="card">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/volkswagen-beetle.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p>Volkswagen beetle <span class="price">$11,000</span></p>    
+                <a >
+                  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                 </a>
+              </div>
+            </div>
+          </div>
+    
+    </div>
+    <div class="column is-3 post item volkswagen" data-item="volkswagen">
+        <div class="card">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/volkswagen-blue.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p>Blue volkswagen <span class="price">$10,500</span></p>
+                <a >
+                  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                 </a>
+              </div>
+            </div>
+          </div>
+    
+    </div>
+    
+    <div class="column is-3 post item volkswagen" data-item="volkswagen">
+        <div class="card">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/Volkswagen_Atlas_2017_SUV.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p>Volkswagen Atlas <span class="price">$13,000</span></p>
+                <a >
+                  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                 </a> 
+              </div>
+            </div>
+          </div>
+    
+    </div>
+    </article>
+
+    <article class="container columns">
+        <div class="column is-3 post item bmw" data-item="bmw">        
+       <div class="card">
+        <div class="card-image ">
+          <figure class="image is-1by1">
+            <img src="img/bmw-x1.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p>BMW X1 <span class="price">$12,000</span></p>
+             <a >
+              <span class="icon is-small"><i class="fas fa-heart"></i></span> 
+              </a>
+          </div>
+        </div>
+      </div>
+      </div> 
+
+      <div class="column is-3 post item bmw" data-item="bmw">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/2015-bmw-x6.jpg">
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p>BMW X6 <span class="price">$9,000</span></p>     
+                  <a >
+                    <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                   </a>
+                </div>
+              </div>
+            </div>
+      
+      </div>
+      <div class="column is-3 post item bmw" data-item="bmw">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/bmw-m3.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p>BMW M3 <span class="price">$10,000</span></p>
+                  <a >
+                    <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                   </a> 
+                </div>
+              </div>
+            </div> 
+       </div>
+      
+      <div class="column is-3 post item bmw" data-item="bmw">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/Bmw-I8-Hybrid.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <p>Bmw I8 Hybrid <span class="price">$15,000</span></p>
+                  <a >
+                    <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                   </a> 
+                </div>
+              </div>
+            </div>
+      
+      </div>
+      </article>
+     
+       <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <p class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+          </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div> 
+
+    </main>
+
+    <footer class="footer">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <img src="img/white-logo.png">
+            </a>
+          </div>
+        <ul class="footer-body">
+          <li class="footer-item"><a href="#index.html">Blog</a></li>
+          <li class="footer-item"><a href="#index.html">About us</a></li>
+          <li class="footer-item"><a href="#index.html">Terms of policy</a></li>
+        </ul>
+  
+        <ul class="footer-icons">
+          <li class="social-icons"><a href="https://www.youtube.com/"><img src="img/youtube.png" alt="youtube logo"></a></li>
+          <li class="social-icons"><a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram logo"></a></li>
+          <li class="social-icons"><a href="https://twitter.com/"><img src="img/twitter.png" alt="twitter logo"></a></li>
+          <li class="social-icons"><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook logo"></a></li>
+        </ul>
+      </footer>
+          
+
+      
+
+
+    
+ 
+    
+
+
+
+
+
+
+
+
+    <script src="js/main2.js"></script>
+</body>  
+</html>

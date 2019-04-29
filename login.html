@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="Kijiji-clone">
+    <meta name="author" content="Sukhjeet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body >
+
+
+   <main class="login-box">
+      <div class="brand">
+        <a href="index.html">
+          <img src="img/purple-kijiji.png" alt="kijiji logo">
+        </a>
+        </div>
+
+     <h1>Log-in</h1>
+       
+      <form name="my form" onSubmit="return login();" action="listings.html" method= "post"> 
+      
+        <div class="field">
+          <label class="label" for="user">Username</label>
+        <div class="control has-icons-left has-icons-right">
+        <input id="user" class="input is-success is-rounded" type="text" placeholder="Text input",value="" >
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+
+
+       <div class="field">
+         <label class="label" for="pass" >Password</label>
+         <p class="control has-icons-left">
+         <input id="pass"class="input is-rounded" type="password" placeholder="Password",value="" >
+         <span class="icon is-small is-left">
+           <i class="fas fa-lock"></i>
+         </span>
+         </p>
+        </div>
+
+       <div>
+        <input type="submit" class="button is-info" id="login" value="login"> 
+       </div>
+      </form>
+     
+     
+   </main>
+    
+   <script src="js/login.js"></script>
+
+</body>  
+</html>

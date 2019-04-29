@@ -1,0 +1,65 @@
+Body { 
+  font-family: georgia;
+  font-size: 1em;
+}
+
+h1{
+font-size: 3em;
+
+}
+
+h2{
+font-family: 700,'sans-serif';
+font-size: 1.5em;
+color: blue;    
+}
+
+.greySection {
+ background-color:#D9D8D2;
+}
+
+#navbar-color {
+    background-color: #363475;
+}
+
+.background-img {  
+    background-image: url('../img/bk-img.jpg'); 
+    padding: 8em 4em;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .footer{
+    background-color: #333; 
+    width: 100%;
+    padding: 2em 2em;
+    line-height: 3;
+    text-align: center;
+   }
+
+  .footer-item {
+    display: inline-block;
+    color: #fff;
+    padding: 2px 5px;
+  }
+  
+  .footer-item a {
+   text-decoration: none;
+   color: white;
+  }
+  
+  .footer-item a:hover {
+    text-decoration: underline;
+    background-color: blue;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    margin: 0 0.5em;;
+  }
+  

@@ -1,0 +1,84 @@
+body {
+  margin: 1em 0;
+  padding: 0 1em;
+  font-family: georgia;
+  font-size: 1em;  
+}
+
+p{
+  color: black;
+  font-size: 1em;
+}
+
+ .post {
+   margin: 1.5em;
+}
+
+header {
+  margin-top: 13em;
+}
+
+#navbar-color {
+  background-color: #363475;
+}
+
+.search-bar{
+  margin: 1em;
+  text-align: center;
+}
+
+.favorites {
+  margin: 0.5em;
+  color: white;
+  font-size: 2em;
+}
+.buttons {
+  margin: 3em;
+}
+
+.filter-btn {
+  margin: 0.5em;
+}
+.price {
+  color: blue;
+  margin: 1em;
+}
+
+.footer{
+  background-color: #333; 
+  width: 100%;
+  padding: 2em 2em;
+  line-height: 3;
+  text-align: center;
+ }
+
+.footer-item {
+  display: inline-block;
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.footer-item a {
+ text-decoration: none;
+ color: white;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+  background-color: blue;
+}
+
+.social-icons {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  margin: 0 0.5em;;
+}
+
+ @media screen and (min-width: 1100px) {
+  header {
+    margin-top: 6em;
+  }
+ 
+} 
+
